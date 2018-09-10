@@ -27,26 +27,26 @@ weight = 3
 A website to discuss research and data on inclusive finance and the Kenyan economy :kenya:
 #<div style="margin-top: -0.5rem;">
 #  <a id="academic-release" href="https://sourcethemes.com/academic/updates">Latest release</a>
-</div>
-<div class="mt-3">
-  <a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star gcushen/hugo-academic on GitHub">Star</a>
-</div>
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<script type="text/javascript">
-  (function defer() {
-    if (window.jQuery) {
-      jQuery(document).ready(function(){
-        GetLatestReleaseInfo();
-      });
-    } else {
-      setTimeout(function() { defer() }, 50);
-    }
-  })();  
-  function GetLatestReleaseInfo() {
-    $.getJSON('https://api.github.com/repos/gcushen/hugo-academic/tags').done(function (json) {
-      let release = json[0];
-      // let downloadURL = release.zipball_url;
-      $('#academic-release').text('Latest release ' + release.name);  
-    });    
-}  
+#</div>
+#<div class="mt-3">
+#  <a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star gcushen/hugo-academic on GitHub">Star</a>
+#</div>
+#<script async defer src="https://buttons.github.io/buttons.js"></script>
+#<script type="text/javascript">
+#  (function defer() {
+#    if (window.jQuery) {
+#      jQuery(document).ready(function(){
+#        GetLatestReleaseInfo();
+#      });
+#    } else {
+#      setTimeout(function() { defer() }, 50);
+#    }
+#  })();  
+#  function GetLatestReleaseInfo() {
+#    $.getJSON('https://api.github.com/repos/gcushen/hugo-academic/tags').done(function (json) {
+#      let release = json[0];
+#      // let downloadURL = release.zipball_url;
+#      $('#academic-release').text('Latest release ' + release.name);  
+#    });    
+#}  
 </script>

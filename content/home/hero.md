@@ -4,7 +4,7 @@ widget = "hero"
 active = true
 date = 2017-10-15T00:00:00
 
-title = "Academic"
+title = "ctrl::rethink"
 
 # Order that this section will appear in.
 weight = 3
@@ -24,9 +24,9 @@ weight = 3
   label = '<i class="fas fa-download"></i> Install Now'
 +++
 
-The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes :rocket:
-<div style="margin-top: -0.5rem;">
-  <a id="academic-release" href="https://sourcethemes.com/academic/updates">Latest release</a>
+A website to discuss research and data on inclusive finance and the Kenyan economy :kenya:
+#<div style="margin-top: -0.5rem;">
+#  <a id="academic-release" href="https://sourcethemes.com/academic/updates">Latest release</a>
 </div>
 <div class="mt-3">
   <a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star gcushen/hugo-academic on GitHub">Star</a>

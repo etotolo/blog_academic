@@ -12,7 +12,7 @@ weight = 5
   interests = [
     "Inclusive finance",
     "Development economics",
-    "Behavioral science"
+    "Analytics"
   ]
 
 # List your qualifications (such as academic degrees).

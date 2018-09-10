@@ -1,7 +1,7 @@
 +++
 # Hero widget.
 widget = "hero"
-active = true
+active = false
 date = 2017-10-15T00:00:00
 
 title = "ctrl::rethink"
@@ -26,7 +26,7 @@ weight = 3
 
 A website to discuss research and data on inclusive finance and the Kenyan economy :kenya:
 #<div style="margin-top: -0.5rem;">
-#  <a id="academic-release" href="https://sourcethemes.com/academic/updates">Latest release</a>
+#  <a id="academic-release" #href="https://sourcethemes.com/academic/updates">Latest #release</a>
 #</div>
 #<div class="mt-3">
 #  <a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star gcushen/hugo-academic on GitHub">Star</a>

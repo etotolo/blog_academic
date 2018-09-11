@@ -22,26 +22,9 @@ publication = "In *Financial Sector Deepening*, FSD Kenya."
 publication_short = "In *FSDKenya*"
 
 # Abstract and optional shortened version.
-abstract = "This report outlines the findings from a two-year study by FSD Kenya to understand the costs for banking services in Kenya. Two rounds of mystery shopping surveys were completed in October and November of 2015 and 2016
-to build a database and measure the costs for basic bundles of transactions such as opening, running and closing bank accounts.
+abstract = "This report outlines the findings from a two-year study by FSD Kenya to understand the costs for banking services in Kenya. Two rounds of mystery shopping surveys were completed in October and November of 2015 and 2016 to build a database and measure the costs for basic bundles of transactions such as opening, running and closing bank accounts.While conducting the study, however, it became clear that bank pricing data is difficult to obtain and that market information is still opaque. Although banks are required by the Central Bank of Kenya (CBK) to publish “tariff guides” with all their fees and charges, we found that many were either outdated, incomplete or lacking account specific information. There are, however, exemplary banks with up-to-date and accessible tariff guides.This report has three objectives: 1. To assess price transparency 2. To develop affordability indicators that measure the cost of basic bank transactions such as opening and closing bank accounts, withdrawing and transferring money. 3. To identify actionable recommendations solutions as well as government policies aimed and affordability."
 
-While conducting the study, however, it became clear that bank pricing data is difficult to obtain and that market information is still opaque. Although banks are required by the Central Bank of Kenya (CBK) to publish “tariff guides” with all their fees and charges, we found that many were either outdated, incomplete or lacking account specific information. There are, however, exemplary banks with up-to-date and accessible tariff guides.
-
-This report has three objectives:
-
-1. To assess price transparency 
-2. To develop affordability indicators that measure the cost of basic bank transactions such as opening and closing bank accounts, withdrawing and transferring money.
-3. To identify actionable recommendations solutions as well as government policies aimed and affordability."
-abstract_short = "This report outlines the findings from a two-year study by FSD Kenya to understand the costs for banking services in Kenya. Two rounds of mystery shopping surveys were completed in October and November of 2015 and 2016
-to build a database and measure the costs for basic bundles of transactions such as opening, running and closing bank accounts.
-
-While conducting the study, however, it became clear that bank pricing data is difficult to obtain and that market information is still opaque. Although banks are required by the Central Bank of Kenya (CBK) to publish “tariff guides” with all their fees and charges, we found that many were either outdated, incomplete or lacking account specific information. There are, however, exemplary banks with up-to-date and accessible tariff guides.
-
-This report has three objectives:
-
-1. To assess price transparency 
-2. To develop affordability indicators that measure the cost of basic bank transactions such as opening and closing bank accounts, withdrawing and transferring money.
-3. To identify actionable recommendations solutions as well as government policies aimed and affordability."
+abstract_short = ""
 
 # Featured image thumbnail (optional)
 image_preview = ""

@@ -15,7 +15,7 @@ authors = ["E Totolo", "F Gwer", "J Odero"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["1"]
+publication_types = ["4"]
 
 # Publication name and optional abbreviated version.
 publication = "In *Financial Sector Deepening*, FSD Kenya."

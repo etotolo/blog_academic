@@ -1,10 +1,10 @@
 +++
-title = "Mobile visual clothing search"
-date = 2013-07-01T00:00:00
+title = "The price of being banked"
+date = 2017-11-01T00:00:00
 draft = false
 
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["GA Cushen", "MS Nixon"]
+# Authors. Comma separated list, e.g. `["Edoardo Totolo", "Francis Gwer", "Jack Odero"]`.
+authors = ["E Totolo", "F Gwer", "J Odero"]
 
 # Publication type.
 # Legend:
@@ -18,12 +18,30 @@ authors = ["GA Cushen", "MS Nixon"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *International Conference on Multimedia and Expo Workshops (ICMEW)*, IEEE."
-publication_short = "In *ICMEW*"
+publication = "In *Financial Sector Deepening*, FSD Kenya."
+publication_short = "In *FSDKenya*"
 
 # Abstract and optional shortened version.
-abstract = "We present a mobile visual clothing search system whereby a smart phone user can either choose a social networking photo or take a new photo of a person wearing clothing of interest and search for similar clothing in a retail database. From the query image, the person is detected, clothing is segmented, and clothing features are extracted and quantized. The information is sent from the phone client to a server, where the feature vector of the query image is used to retrieve similar clothing products from online databases. The phone's GPS location is used to re-rank results by retail store location. State of the art work focuses primarily on the recognition of a diverse range of clothing offline and pays little attention to practical applications. Evaluated on a challenging dataset, the system is relatively fast and achieves promising results."
-abstract_short = "A mobile visual clothing search system is presented whereby a smart phone user can either choose a social networking image or capture a new photo of a person wearing clothing of interest and search for similar clothing in a large cloud-based ecommerce database. The phone's GPS location is used to re-rank results by retail store location, to inform the user of local stores where similar clothing items can be tried on."
+abstract = "This report outlines the findings from a two-year study by FSD Kenya to understand the costs for banking services in Kenya. Two rounds of mystery shopping surveys were completed in October and November of 2015 and 2016
+to build a database and measure the costs for basic bundles of transactions such as opening, running and closing bank accounts.
+
+While conducting the study, however, it became clear that bank pricing data is difficult to obtain and that market information is still opaque. Although banks are required by the Central Bank of Kenya (CBK) to publish “tariff guides” with all their fees and charges, we found that many were either outdated, incomplete or lacking account specific information. There are, however, exemplary banks with up-to-date and accessible tariff guides.
+
+This report has three objectives:
+
+1. To assess price transparency 
+2. To develop affordability indicators that measure the cost of basic bank transactions such as opening and closing bank accounts, withdrawing and transferring money.
+3. To identify actionable recommendations solutions as well as government policies aimed and affordability."
+abstract_short = "This report outlines the findings from a two-year study by FSD Kenya to understand the costs for banking services in Kenya. Two rounds of mystery shopping surveys were completed in October and November of 2015 and 2016
+to build a database and measure the costs for basic bundles of transactions such as opening, running and closing bank accounts.
+
+While conducting the study, however, it became clear that bank pricing data is difficult to obtain and that market information is still opaque. Although banks are required by the Central Bank of Kenya (CBK) to publish “tariff guides” with all their fees and charges, we found that many were either outdated, incomplete or lacking account specific information. There are, however, exemplary banks with up-to-date and accessible tariff guides.
+
+This report has three objectives:
+
+1. To assess price transparency 
+2. To develop affordability indicators that measure the cost of basic bank transactions such as opening and closing bank accounts, withdrawing and transferring money.
+3. To identify actionable recommendations solutions as well as government policies aimed and affordability."
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -43,13 +61,13 @@ projects = ["example-external-project"]
 tags = []
 
 # Links (optional).
-url_pdf = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
-url_preprint = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
+url_pdf = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30105200/17-08-30_Price-of-being-banked-report.pdf"
+url_preprint = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30105200/17-08-30_Price-of-being-banked-report.pdf"
 url_code = "#"
 url_dataset = "#"
 url_project = "#"
 url_slides = "#"
-url_video = "#"
+url_video = "https://www.cnbcafrica.com/videos/2017/08/30/the-cost-of-banking-in-kenya/"
 url_poster = "#"
 url_source = "#"
 

@@ -28,7 +28,7 @@ list_format = 3
 #  2: Journal
 #  3: Work in progress
 #  4: Technical report
-#  5: Book
+#  5: Book 
 #  6: Book chapter
 publication_type = "-1"
 

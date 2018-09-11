@@ -25,7 +25,7 @@ weight = 7
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "80%"
+  description = "80% "
   
 [[feature]]
   icon = "chart-line"

@@ -20,14 +20,6 @@
     
     <url>
     
-      <loc>/privacy/</loc>
-      <lastmod>2018-06-28T00:00:00+03:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/publication/price-being-banked/</loc>
       <lastmod>2017-11-01T00:00:00+03:00</lastmod>
     </url>
@@ -101,6 +93,14 @@
     <url>
     
       <loc>/post/2015-07-23-r-rmarkdown/</loc>
+      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/post/2015-07-23-r-rmarkdown.knit/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     </url>
     

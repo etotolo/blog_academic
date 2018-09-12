@@ -1,6 +1,6 @@
 +++
 title = "Finaccess Business - analysis of SME finance in Kenya"
-date = 2015-11-01T00:00:00
+date = 2013-11-01T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Edoardo Totolo"]

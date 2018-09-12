@@ -3,7 +3,8 @@ title = "Exploring the Black-Box of Economic Informality: Social Networks and In
 date = 2013-11-01T00:00:00
 draft = false
 
-# Authors. Comma separated list, e.g. `["Edoardo Totolo"]
+# Authors. Comma separated list, e.g. `["Edoardo Totolo"]`.
+authors = ["E Totolo"]
 
 # Publication type.
 # Legend:

@@ -1,6 +1,5 @@
 +++
-title = "Exploring the Black-Box of Economic Informality
-Social Networks and Institutional Change among Micro and Small Enterprises in Nairobi, Kenya"
+title = "Exploring the Black-Box of Economic Informality: Social Networks and Institutional Change among Micro and Small Enterprises in Nairobi, Kenya"
 date = 2013-11-01T00:00:00
 draft = false
 

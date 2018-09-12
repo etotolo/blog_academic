@@ -1,10 +1,10 @@
 +++
-title = "The price of being banked"
+title = "Finaccess Business - analysis of SME finance in Kenya"
 date = 2015-11-01T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Gunhild Berg", "Michael Fuchs", "Ravindra Ramrattan", "Edoardo Totolo", "Central Bank of Kenya"]`.
-authors = ["G Berg", "M Fuchsr", "R Ramrattan", "Edoardo Totolo", "CBK"]
+authors = ["G Berg", "M Fuchs", "R Ramrattan", "Edoardo Totolo", "CBK"]
 
 # Publication type.
 # Legend:
@@ -44,8 +44,8 @@ projects = ["example-external-project"]
 tags = []
 
 # Links (optional).
-url_pdf = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30105200/17-08-30_Price-of-being-banked-report.pdf"
-url_preprint = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30105200/17-08-30_Price-of-being-banked-report.pdf"
+url_pdf = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30093851/15-09-11-Bank-Financing-of-SMEs-in-Kenya.pdf"
+url_preprint = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30093851/15-09-11-Bank-Financing-of-SMEs-in-Kenya.pdf"
 url_code = "#"
 url_dataset = "#"
 url_project = "#"

@@ -56,4 +56,4 @@ caption = "My caption :smile:"
 
 +++
 
-#Embed your slides or video here using #[shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further #details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
+Slides used in the presentation:  #[shortcodes](https://www.microfinancegateway.org/sites/default/files/publication_files/digital_credit_survey_-_kenya_presentation_cgap_v3.pdf). 

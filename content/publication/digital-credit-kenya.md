@@ -48,7 +48,7 @@ url_pdf = "https://www.microfinancegateway.org/sites/default/files/publication_f
 blog = "https://www.microfinancegateway.org/library/digital-credit-revolution-kenya-assessment-market-demand-5-years"
 #url_code = "#"
 #url_dataset = "#"
-url_project = "SME finance"
+url_project = "Fintech revolution"
 url_slides = "https://www.microfinancegateway.org/library/digital-credit-revolution-kenya-assessment-market-demand-5-years"
 url_video = "https://www.youtube.com/watch?v=SlY1gy0yiow"
 #url_poster = "#"

@@ -52,11 +52,11 @@ url_project = "Fintech revolution"
 url_slides = "https://www.microfinancegateway.org/library/digital-credit-revolution-kenya-assessment-market-demand-5-years"
 url_video = "https://www.youtube.com/watch?v=SlY1gy0yiow"
 #url_poster = "#"
-url_source = "https://www.microfinancegateway.org/library/digital-credit-revolution-kenya-assessment-market-demand-5-years"
+#url_source = "https://www.microfinancegateway.org/library/digital-credit-revolution-kenya-assessment-market-demand-5-years"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Custom Link", url = "http://www.cgap.org/blog/kenya%E2%80%99s-digital-credit-revolution-five-years"}]
+url_custom = [{Blog = "Custom Link", url = "http://www.cgap.org/blog/kenya%E2%80%99s-digital-credit-revolution-five-years"}]
 
 # Does this page contain LaTeX math? (true/false)
 math = true

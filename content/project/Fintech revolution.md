@@ -3,13 +3,13 @@
 date = 2016-04-27T00:00:00
 
 # Project title.
-title = "External Project"
+title = "Fintech revolution"
 
 # Project summary to display on homepage.
 summary = "An example of linking directly to an external project website using `external_link`."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "boards.jpg"
+image_preview = "digital_credit.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

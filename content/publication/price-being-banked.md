@@ -45,7 +45,7 @@ tags = []
 
 # Links (optional).
 url_pdf = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30105200/17-08-30_Price-of-being-banked-report.pdf"
-url_preprint = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30105200/17-08-30_Price-of-being-banked-report.pdf"
+#url_preprint = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30105200/17-08-30_Price-of-being-banked-report.pdf"
 #url_code = "#"
 #url_dataset = "#"
 url_project = "Regulation of finance"

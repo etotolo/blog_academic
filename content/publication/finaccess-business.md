@@ -45,7 +45,7 @@ tags = []
 
 # Links (optional).
 url_pdf = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30093851/15-09-11-Bank-Financing-of-SMEs-in-Kenya.pdf"
-url_preprint = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30093851/15-09-11-Bank-Financing-of-SMEs-in-Kenya.pdf"
+#url_preprint = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30093851/15-09-11-Bank-Financing-of-SMEs-in-Kenya.pdf"
 #url_code = "#"
 #url_dataset = "#"
 url_project = "SME finance"

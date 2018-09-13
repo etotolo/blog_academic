@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SME finance on ctrl::rethink</title>
+    <link>/tags/sme-finance/</link>
+    <description>Recent content in SME finance on ctrl::rethink</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="/tags/sme-finance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SME finance</title>
+      <link>/project/sme-finance/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/project/sme-finance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finaccess Business - analysis of SME finance in Kenya</title>
+      <link>/publication/finaccess-business/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0300</pubDate>
+      
+      <guid>/publication/finaccess-business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring the Black-Box of Economic Informality: Social Networks and Institutional Change among Micro and Small Enterprises in Nairobi, Kenya</title>
+      <link>/publication/blacknbox-informality/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0300</pubDate>
+      
+      <guid>/publication/blacknbox-informality/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

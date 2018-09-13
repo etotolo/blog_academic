@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>The Digital Credit Revolution in Kenya: An Assessment of Market Demand, 5 Years On</title>
+      <link>/publication/digital-credit-kenya/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0300</pubDate>
+      
+      <guid>/publication/digital-credit-kenya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The price of being banked</title>
       <link>/publication/price-being-banked/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0300</pubDate>
@@ -22,12 +31,21 @@
     </item>
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0300</pubDate>
+      <title>Finaccess Business - analysis of SME finance in Kenya</title>
+      <link>/publication/finaccess-business/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0300</pubDate>
       
-      <guid>/publication/person-re-identification/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+      <guid>/publication/finaccess-business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring the Black-Box of Economic Informality: Social Networks and Institutional Change among Micro and Small Enterprises in Nairobi, Kenya</title>
+      <link>/publication/blacknbox-informality/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0300</pubDate>
+      
+      <guid>/publication/blacknbox-informality/</guid>
+      <description></description>
     </item>
     
   </channel>

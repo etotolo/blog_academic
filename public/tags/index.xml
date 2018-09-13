@@ -22,20 +22,56 @@
     </item>
     
     <item>
-      <title>Deep Learning</title>
-      <link>/tags/deep-learning/</link>
+      <title>Digital credit</title>
+      <link>/tags/digital-credit/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/tags/deep-learning/</guid>
+      <guid>/tags/digital-credit/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Demo</title>
-      <link>/tags/demo/</link>
+      <title>Fintech</title>
+      <link>/tags/fintech/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 +0300</pubDate>
+      
+      <guid>/tags/fintech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fintech revolution</title>
+      <link>/tags/fintech-revolution/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 +0300</pubDate>
+      
+      <guid>/tags/fintech-revolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laws and reg</title>
+      <link>/tags/laws-and-reg/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/tags/demo/</guid>
+      <guid>/tags/laws-and-reg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Market conduct</title>
+      <link>/tags/market-conduct/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/tags/market-conduct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Other</title>
+      <link>/tags/other/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/tags/other/</guid>
       <description></description>
     </item>
     
@@ -63,6 +99,24 @@
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
       <guid>/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regulation</title>
+      <link>/tags/regulation/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0300</pubDate>
+      
+      <guid>/tags/regulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SME finance</title>
+      <link>/tags/sme-finance/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/tags/sme-finance/</guid>
       <description></description>
     </item>
     

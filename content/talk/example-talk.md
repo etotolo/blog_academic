@@ -1,45 +1,45 @@
 +++
-title = "Example Talk"
-date = 2017-01-01T00:00:00  # Schedule page publish date.
+title = "Mobile lending in Kenya: time for a leash?"
+date = 2018-08-17T00:00:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 time_start = 2030-06-01T13:00:00
-time_end = 2030-06-01T15:00:00
+#time_end = 2030-06-01T15:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
+authors = ["Edoardo Totolo"]
 
 # Abstract and optional shortened version.
 abstract = ""
 abstract_short = ""
 
 # Name of event and optional event URL.
-event = "Academic Theme Conference"
-event_url = "https://example.org"
+event = "CapitalFM DeepDive"
+event_url = "https://www.capitalfm.co.ke/business/2018/08/deepdive-mobile-lending-in-kenya-time-for-a-leash/"
 
 # Location of event.
-location = "London, United Kingdom"
+location = "Nairobi, Kenya"
 
 # Is this a selected talk? (true/false)
-selected = false
+selected = true
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
 #   Simply enter your project's filename without extension.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
 #   Otherwise, set `projects = []`.
-projects = ["deep-learning"]
+projects = ["Fintech revolution"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["Fintech", "Fintech revolution"]
 
 # Links (optional).
 url_pdf = ""
 url_slides = ""
-url_video = ""
+url_video = "https://www.youtube.com/watch?v=SlY1gy0yiow&t=528s"
 url_code = ""
 
 # Does the content use math formatting?
@@ -56,4 +56,4 @@ caption = "My caption :smile:"
 
 +++
 
-Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
+#Embed your slides or video here using #[shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further #details can easily be added using *Markdown* and $\rm \LaTeX$ math code.

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 01 Nov 2017 00:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0300</lastBuildDate>
     
 	<atom:link href="/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Digital Credit Revolution in Kenya: An Assessment of Market Demand, 5 Years On</title>
+      <link>/publication/digital-credit-kenya/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0300</pubDate>
+      
+      <guid>/publication/digital-credit-kenya/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The price of being banked</title>
@@ -18,6 +27,15 @@
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0300</pubDate>
       
       <guid>/publication/price-being-banked/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finaccess Business - analysis of SME finance in Kenya</title>
+      <link>/publication/finaccess-business/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0300</pubDate>
+      
+      <guid>/publication/finaccess-business/</guid>
       <description></description>
     </item>
     

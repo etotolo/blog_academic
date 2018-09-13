@@ -41,7 +41,7 @@ projects = ["example-external-project"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["SME finance"]
 
 # Links (optional).
 url_pdf = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30093851/15-09-11-Bank-Financing-of-SMEs-in-Kenya.pdf"

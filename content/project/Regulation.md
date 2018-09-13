@@ -13,7 +13,7 @@ image_preview = "book_PNG51027.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Market conduct", "Laws and reg", "Other"]
+tags = ["Market conduct", "Laws and reg", "Regulation", "Other"]
 
 # Optional external URL for project (replaces project detail page).
 #external_link = "http://example.org"

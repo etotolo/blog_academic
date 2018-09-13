@@ -45,14 +45,14 @@ tags = ["Fintech", "Fintech revolution"]
 
 # Links (optional).
 url_pdf = "https://www.microfinancegateway.org/sites/default/files/publication_files/digital_credit_survey_-_kenya_presentation_cgap_v3.pdf"
-blog = "https://www.microfinancegateway.org/library/digital-credit-revolution-kenya-assessment-market-demand-5-years"
+#url_preprint = "https://www.microfinancegateway.org/library/digital-credit-revolution-kenya-assessment-market-demand-5-years"
 #url_code = "#"
 #url_dataset = "#"
 url_project = "Fintech revolution"
 url_slides = "https://www.microfinancegateway.org/library/digital-credit-revolution-kenya-assessment-market-demand-5-years"
 url_video = "https://www.youtube.com/watch?v=SlY1gy0yiow"
 #url_poster = "#"
-#url_source = "#"
+url_source = ""https://www.microfinancegateway.org/library/digital-credit-revolution-kenya-assessment-market-demand-5-years""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

@@ -3,7 +3,7 @@
 date = 2016-04-27T00:00:00
 
 # Project title.
-title = "Enterprise finance"
+title = "SME finance"
 
 # Project summary to display on homepage.
 summary = "Small and medium enterprises are the engine of growth, and also the most difficult to serve. We look at the demand and supply of financial services"
@@ -13,7 +13,7 @@ image_preview = "fab.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Supply"]
+tags = ["SME finance"]
 
 # Optional external URL for project (replaces project detail page).
 #external_link = "http://example.org"

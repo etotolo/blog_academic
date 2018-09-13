@@ -56,7 +56,7 @@ url_source = ""https://www.microfinancegateway.org/library/digital-credit-revolu
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [{name = "Custom Link", url = "http://www.fsdkenya.org"}]
+url_custom = [{name = "Custom Link", url = "http://www.cgap.org/blog/kenya%E2%80%99s-digital-credit-revolution-five-years"}]
 
 # Does this page contain LaTeX math? (true/false)
 math = true

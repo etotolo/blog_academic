@@ -41,11 +41,11 @@ projects = ["example-external-project"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["SME finance"]
 
 # Links (optional).
 url_pdf = "http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199687015.001.0001/acprof-9780199687015-chapter-10"
-url_preprint = "http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199687015.001.0001/acprof-9780199687015-chapter-10"
+#url_preprint = "http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199687015.001.0001/acprof-9780199687015-chapter-10"
 #url_code = "#"
 #url_dataset = "#"
 url_project = "SME finance"
@@ -56,7 +56,7 @@ url_project = "SME finance"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Custom Link", url = "http://www.fsdkenya.org"}]
+#url_custom = [{name = "Custom Link", url = "http://www.fsdkenya.org"}]
 
 # Does this page contain LaTeX math? (true/false)
 math = true

@@ -41,7 +41,7 @@ projects = ["example-external-project"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["Regulation"]
 
 # Links (optional).
 url_pdf = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30105200/17-08-30_Price-of-being-banked-report.pdf"

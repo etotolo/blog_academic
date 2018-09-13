@@ -46,13 +46,13 @@ tags = []
 # Links (optional).
 url_pdf = "http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199687015.001.0001/acprof-9780199687015-chapter-10"
 url_preprint = "http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199687015.001.0001/acprof-9780199687015-chapter-10"
-url_code = "#"
-url_dataset = "#"
-url_project = "#"
-url_slides = "#"
-url_video = ""
-url_poster = "#"
-url_source = "#"
+#url_code = "#"
+#url_dataset = "#"
+#url_project = "#"
+#url_slides = "#"
+#url_video = ""
+#url_poster = "#"
+#url_source = "#"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

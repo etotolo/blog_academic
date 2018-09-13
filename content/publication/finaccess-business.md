@@ -46,13 +46,13 @@ tags = []
 # Links (optional).
 url_pdf = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30093851/15-09-11-Bank-Financing-of-SMEs-in-Kenya.pdf"
 url_preprint = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30093851/15-09-11-Bank-Financing-of-SMEs-in-Kenya.pdf"
-url_code = "#"
-url_dataset = "#"
-url_project = "#"
-url_slides = "#"
-url_video = ""
-url_poster = "#"
-url_source = "#"
+#url_code = "#"
+#url_dataset = "#"
+url_project = "SME finance"
+url_slides = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2016/01/30093357/SME-day-20150_Edo-presentation.pptx"
+#url_video = ""
+#url_poster = "#"
+#url_source = "#"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

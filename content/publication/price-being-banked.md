@@ -46,13 +46,13 @@ tags = []
 # Links (optional).
 url_pdf = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30105200/17-08-30_Price-of-being-banked-report.pdf"
 url_preprint = "http://s3-eu-central-1.amazonaws.com/fsd-circle/wp-content/uploads/2017/08/30105200/17-08-30_Price-of-being-banked-report.pdf"
-url_code = "#"
-url_dataset = "#"
-url_project = "#"
-url_slides = "#"
+#url_code = "#"
+#url_dataset = "#"
+url_project = "Transparency & Consumer protection"
+#url_slides = "#"
 url_video = "https://www.cnbcafrica.com/videos/2017/08/30/the-cost-of-banking-in-kenya/"
-url_poster = "#"
-url_source = "#"
+#url_poster = "#"
+#url_source = "#"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

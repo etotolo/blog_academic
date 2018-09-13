@@ -34,12 +34,16 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Deep Learning"
-  tag = "Deep Learning"
+  name = "Fintech revolution"
+  tag = "Fintech revolution"
 
 [[filter]]
-  name = "Other"
-  tag = "Demo"
+  name = "Regulation"
+  tag = "Regulation"
+
+[[filter]]
+  name = "SME finance"
+  tag = "SME finance"
 
 +++
 

@@ -6,14 +6,14 @@ date = 2016-04-27T00:00:00
 title = "Enterprise finance"
 
 # Project summary to display on homepage.
-summary = "An example of linking directly to an external project website using `external_link`."
+summary = "Small and medium enterprises are the engine of growth, and also the most difficult to serve. We look at the demand and supply of financial services"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "fab.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Demo"]
+tags = ["Supply"]
 
 # Optional external URL for project (replaces project detail page).
 #external_link = "http://example.org"

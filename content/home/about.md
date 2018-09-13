@@ -36,4 +36,4 @@ weight = 5
 
 # Biography
 
-I am a research economist at FSD Kenya, specializing in inclusive finance, development economics and private sector development. This website is a space for data insights and analytics, and to reflect (i.e. rant) about what is happening in the Kenyan economy. Views are f course my own, not necessarily those of my employer.
+I am a research economist at FSD Kenya, specializing in inclusive finance, development economics and private sector development. This website is a space for data insights and analytics, and to reflect (i.e. rant) about the Kenyan economy. Views are of course my own, not necessarily those of my employer.

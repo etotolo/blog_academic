@@ -235,7 +235,7 @@ enableGitInfo = false
     link = "//twitter.com/edso"
 
   [[params.social]]
-    icon = "google-scholar"
+    icon = "linkedin"
     icon_pack = "ai"
     link = ""
 

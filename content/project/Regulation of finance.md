@@ -9,7 +9,7 @@ title = "Regulation of finance"
 summary = "Understanding how regulation can drive inclusive and stable financial markets"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "book_PNG51027.jpg"
+image_preview = "book_PNG51027.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

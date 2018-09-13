@@ -1,6 +1,6 @@
 +++
 title = "The Digital Credit Revolution in Kenya: An Assessment of Market Demand, 5 Years On"
-date = 2018-11-01T00:00:00
+date = 2018-03-01T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Edoardo Totolo"]`.

@@ -3,7 +3,7 @@
 date = 2016-04-27T00:00:00
 
 # Project title.
-title = "Regulation of finance"
+title = "Regulation"
 
 # Project summary to display on homepage.
 summary = "Understanding how regulation can drive inclusive and stable financial markets"

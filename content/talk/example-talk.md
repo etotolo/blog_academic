@@ -56,4 +56,4 @@ caption = "My caption :smile:"
 
 +++
 
-Slides used in the presentation:  #[shortcodes](https://www.microfinancegateway.org/sites/default/files/publication_files/digital_credit_survey_-_kenya_presentation_cgap_v3.pdf). 
+Slides used in the  #[presentation](https://www.microfinancegateway.org/sites/default/files/publication_files/digital_credit_survey_-_kenya_presentation_cgap_v3.pdf). 

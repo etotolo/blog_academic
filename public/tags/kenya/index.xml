@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kenya on ctrl::rethink</title>
+    <link>/tags/kenya/</link>
+    <description>Recent content in Kenya on ctrl::rethink</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 14 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/kenya/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kenyan Shilling decreasing value against the dollar</title>
+      <link>/post/currency-devaluation/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/currency-devaluation/</guid>
+      <description>This is a test post done on September 14
+Here I insert a chart</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -11,6 +11,18 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Kenyan Shilling decreasing value against the dollar</title>
+      <link>/post/currency-devaluation/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/currency-devaluation/</guid>
+      <description>&lt;p&gt;This is a test post done on September 14&lt;/p&gt;
+&lt;p&gt;Here I insert a chart
+&lt;img src=&#34;/post/2018-09-14-testing-a-new-post_files/figure-html/boh-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Example Page</title>
       <link>/tutorial/example/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0300</pubDate>
@@ -36,7 +48,17 @@
       <pubDate>Fri, 17 Aug 2018 00:00:00 +0300</pubDate>
       
       <guid>/talk/example-talk/</guid>
-      <description>&lt;p&gt;#Embed your slides or video here using #&lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further #details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <description>&lt;p&gt;Slides used in the  #&lt;a href=&#34;https://www.microfinancegateway.org/sites/default/files/publication_files/digital_credit_survey_-_kenya_presentation_cgap_v3.pdf&#34; target=&#34;_blank&#34;&gt;presentation&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0300</pubDate>
+      
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     

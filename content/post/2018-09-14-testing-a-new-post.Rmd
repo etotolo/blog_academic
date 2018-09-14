@@ -1,0 +1,29 @@
+---
+title: Kenyan Shilling decreasing value against the dollar
+author: Edoardo
+date: '2018-09-14'
+slug: Currency devaluation
+categories: []
+tags: ["Macro", "Kenya"]
+header:
+  caption: ''
+  image: ''
+---
+
+This is a test post done on September 14
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+library(here)
+library(tidyverse)
+```
+Here I insert a chart
+```{r boh, echo=FALSE, message=FALSE, warning=FALSE}
+qmfr_data <- readRDS(here("static", "data", "QMFR data Q22018.Rds"))
+qmfr_data %>% ggplot(aes(x=date, y=United.States.dollar)) +
+        geom_line() +
+        labs(title="KES vs USD", subtitle="The Kenyan Shilling has been decreasin in value, why?", y="KES per 1 dollar" ) +
+        scale_y_reverse() +
+        theme_minimal()
+        
+```

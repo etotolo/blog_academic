@@ -10,20 +10,35 @@ header:
   image: ''
 ---
 
-This is a test post done on September 14
+A long-term analysis of the Kenyan Shilling (KES) against the US Dollar (USD) leaves no doubt that the Kenyan Shilling has depreciated in the last 20 years.  Kenya actively implemented several [economic reform measures (pdf)](https://aercafrica.org/wp-content/uploads/2018/07/rp109.pdf)  since the 1990s. Interest rates were liberalized in 1990. In 1992/93 the exchange rate regime was liberalised, and Kenyan citizens were allowed to hold foreign currency freely.  
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 library(here)
 library(tidyverse)
 ```
-Here I insert a chart
+
+
 ```{r boh, echo=FALSE, message=FALSE, warning=FALSE}
 qmfr_data <- readRDS(here("static", "data", "QMFR data Q22018.Rds"))
 qmfr_data %>% ggplot(aes(x=date, y=United.States.dollar)) +
         geom_line() +
-        labs(title="KES vs USD", subtitle="The Kenyan Shilling has been decreasin in value, why?", y="KES per 1 dollar" ) +
+        labs(title="KES vs USD", subtitle="The Kenyan Shilling has been decreasing in value, why?", y="KES per 1 USD" ) +
         scale_y_reverse() +
+        theme_minimal()
+        
+```
+
+The reason for this decline is fairly simple: Kenya imports too much and exports too little. Since Kenya does not have enough exports money to finance its imports, Kenya needs to obtain strong currency in other ways. Over the long term, the currency loses its value
+
+```{r import, echo=FALSE, message=FALSE, warning=FALSE}
+#qmfr_data <- readRDS(here("static", "data", "QMFR data Q22018.Rds"))
+qmfr_data %>% select(date, imports_total, exports_total, trade_balance) %>%
+  filter(date>1998) %>%
+  gather(key,value, (2:ncol(.))) %>%
+  ggplot(aes(x=date, y=value, col=key)) +
+        geom_line() +
+        labs(title="Kenya's trade snapshot", subtitle="Imports are growing, exports are stagnant", y="KES bil", caption="Market prices" )  +
         theme_minimal()
         
 ```

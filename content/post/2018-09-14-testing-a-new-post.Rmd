@@ -33,7 +33,7 @@ qmfr_data %>% ggplot(aes(x=date, y=United.States.dollar)) +
 
 The reason for this decline is fairly simple: Kenya imports too much and exports too little. Since Kenya does not have enough exports money to finance its imports, it needs to obtain strong currency in other ways, such as short-term capital inflows, development assistance and remittance. There has been a steady growth of imports, while exports have grown at slow speed.
 
-```{r import, echo=FALSE, message=FALSE, warning=FALSE}
+```{r import,fig.show = "animate" , echo=FALSE, message=FALSE, warning=FALSE}
 #qmfr_data <- readRDS(here("static", "data", "QMFR data Q22018.Rds"))
 qmfr_data %>% select(date, Imports=imports_total, Exports=exports_total, Balance=trade_balance) %>%
   filter(date>2005) %>%
@@ -48,7 +48,7 @@ qmfr_data %>% select(date, Imports=imports_total, Exports=exports_total, Balance
   coord_cartesian(clip = 'off') +
   geom_point(size = 2) +
   theme(legend.position="none")
-        
+      
 ```
 
 But currency depreciation is not always a bad thing, especially when inflation levels are contained. Last year inflation was considerably below the average of the past 5 years. The question here is whether the conditions are conducive for exports to pick up speed

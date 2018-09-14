@@ -16,6 +16,8 @@ A long-term analysis of the Kenyan Shilling (KES) against the US Dollar (USD) le
 knitr::opts_chunk$set(collapse = TRUE)
 library(here)
 library(tidyverse)
+library(gganimate)
+library(zoo)
 ```
 
 
@@ -33,13 +35,19 @@ The reason for this decline is fairly simple: Kenya imports too much and exports
 
 ```{r import, echo=FALSE, message=FALSE, warning=FALSE}
 #qmfr_data <- readRDS(here("static", "data", "QMFR data Q22018.Rds"))
-qmfr_data %>% select(date, imports_total, exports_total, trade_balance) %>%
-  filter(date>1998) %>%
+qmfr_data %>% select(date, Imports=imports_total, Exports=exports_total, Balance=trade_balance) %>%
+  filter(date>2005) %>%
   gather(key,value, (2:ncol(.))) %>%
-  ggplot(aes(x=date, y=value, col=key)) +
+  ggplot(aes(x=as.Date(date), y=value, col=key, group=key)) +
         geom_line() +
-        labs(title="Kenya's trade snapshot", subtitle="Imports are growing, exports are stagnant", y="KES bil", caption="Market prices" )  +
-        theme_minimal()
+        labs(title="Kenya's trade (2005-2018", subtitle="Imports are growing at a faster rate than exports", y="KES bil", caption="Market prices", x="" )  +
+        theme_minimal() +
+  geom_text(aes(x = max(as.Date(date)-300), label = key), hjust = 0) + 
+  transition_reveal(key, as.Date(date-1)) + 
+  geom_segment(aes(xend = max(as.Date(date-1)), yend = value), linetype = 2, colour = 'grey') +
+  coord_cartesian(clip = 'off') +
+  geom_point(size = 2) +
+  theme(legend.position="none")
         
 ```
 
@@ -54,6 +62,7 @@ qmfr_data %>% select(date, inflation_monthly) %>%
         geom_line() +
         labs(title="Kenya's trade snapshot", subtitle="Imports are growing, exports are stagnant", y="%", caption="Market prices" )  +
         theme_minimal()
+  
         
 ```
 

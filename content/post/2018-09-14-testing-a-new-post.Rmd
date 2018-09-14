@@ -33,8 +33,8 @@ qmfr_data %>% ggplot(aes(x=date, y=United.States.dollar)) +
 
 The reason for this decline is fairly simple: Kenya imports too much and exports too little. Since Kenya does not have enough exports money to finance its imports, it needs to obtain strong currency in other ways, such as short-term capital inflows, development assistance and remittance. There has been a steady growth of imports, while exports have grown at slow speed.
 
-```{r import,fig.show = "animate" , echo=FALSE, message=FALSE, warning=FALSE}
-#qmfr_data <- readRDS(here("static", "data", "QMFR data Q22018.Rds"))
+```{r import,echo=FALSE, message=FALSE, warning=FALSE}
+
 qmfr_data %>% select(date, Imports=imports_total, Exports=exports_total, Balance=trade_balance) %>%
   filter(date>2005) %>%
   gather(key,value, (2:ncol(.))) %>%

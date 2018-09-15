@@ -35,7 +35,7 @@ The reason for this decline is fairly simple: Kenya imports too much and exports
 
 ```{r import,echo=FALSE, message=FALSE, warning=FALSE}
 
-qmfr_data %>% select(date, Imports=imports_total, Exports=exports_total, Balance=trade_balance) %>%
+f <-qmfr_data %>% select(date, Imports=imports_total, Exports=exports_total, Balance=trade_balance) %>%
   filter(date>2005) %>%
   gather(key,value, (2:ncol(.))) %>%
   ggplot(aes(x=as.Date(date), y=value, col=key, group=key)) +
@@ -48,7 +48,8 @@ qmfr_data %>% select(date, Imports=imports_total, Exports=exports_total, Balance
   coord_cartesian(clip = 'off') +
   geom_point(size = 2) +
   theme(legend.position="none")
-      
+  
+animate(f,50, 25)    
 ```
 
 But currency depreciation is not always a bad thing, especially when inflation levels are contained. Last year inflation was considerably below the average of the past 5 years. The question here is whether the conditions are conducive for exports to pick up speed

@@ -49,7 +49,7 @@ f <-qmfr_data %>% select(date, Imports=imports_total, Exports=exports_total, Bal
   geom_point(size = 2) +
   theme(legend.position="none")
   
-animate(f,50, 25)    
+animate(f,50, 10)    
 ```
 
 But currency depreciation is not always a bad thing, especially when inflation levels are contained. Last year inflation was considerably below the average of the past 5 years. The question here is whether the conditions are conducive for exports to pick up speed

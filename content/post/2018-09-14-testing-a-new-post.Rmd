@@ -2,7 +2,7 @@
 title: The IMF discontinues Kenya's credit facility. Now what?
 author: Edoardo
 date: '2018-09-14'
-slug: Currency devaluation
+slug: IMF facility, now what
 categories: []
 tags: ["Macro", "Kenya"]
 header:
@@ -37,7 +37,7 @@ f <-qmfr_data %>% select(date, Imports=imports_total, Exports=exports_total, Bal
   gather(key,value, (2:ncol(.))) %>%
   ggplot(aes(x=as.Date(date), y=value, col=key, group=key)) +
         geom_line() +
-        labs(title="Kenya's trade (2005-2018", subtitle="Imports are growing at a faster rate than exports", y="KES bil", caption="Market prices", x="" )  +
+        labs(title="Kenya's trade (2005-2018)", subtitle="Imports are growing at a faster rate than exports", y="KES bil", caption="Market prices", x="" )  +
         theme_minimal() +
   geom_text(aes(x = max(as.Date(date)-300), label = key), hjust = 0) + 
   transition_reveal(key, as.Date(date-1)) + 
@@ -51,15 +51,16 @@ animate(f)
 
 *The IMF standby facility is discontinued, now what?*
 
-Kenya never accessed the facility in the last two years. However, it was a form of insurance that gave confidence to investors and helped the government to attract foreign flows. Without this form of insurance, it will become more expensive for the government to tap the international capital markets, and the flow of reserve currency (i.e. US Dollars) might decrease. A depreciation of the Kenyan Shilling therefore might ensue.
-
-The depreciation of the Kenyan Shilling however is not a new thing. A long-term analysis shows a somewhat constant downward trend in the last 20 years.  
+Kenya never accessed the facility in the last two years. The country does not face a balance of payment crisis, and the Central Bank holds sufficient foreign reserves to cover 5-6 months of imports. However, the real problem is market confidence. The IMF facility was a form of insurance that  helped the government attract foreign flows. Without this form of insurance, there could be several consequences:
+* It will become more expensive for the government to tap the international capital markets
+* The flow of reserve currency (i.e. US Dollars) might decrease. 
+* The Kenyan Shilling will depreciate, continuing a downward trend registered in the last 20 years, which had stabilized in the last 3.
 
 
 ```{r boh, echo=FALSE, message=FALSE, warning=FALSE}
 qmfr_data %>% ggplot(aes(x=date, y=United.States.dollar)) +
         geom_line() +
-        labs(title="KES vs USD", subtitle="The Kenyan Shilling has been decreasing in value, why?", y="KES per 1 USD" ) +
+        labs(title="KES vs USD", subtitle="The Kenyan Shilling has been decreasing in value for quite some time", y="KES per 1 USD" ) +
         scale_y_reverse() +
         theme_minimal()
         

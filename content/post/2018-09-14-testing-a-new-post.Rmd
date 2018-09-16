@@ -27,7 +27,7 @@ The [IMF standby facility](https://www.imf.org/en/About/Factsheets/Sheets/2016/0
 
 The balance of payment is essentially a metric that measures the monetary component of international trade. It accounts for all economic transactions between the residents of a country, e.g. Kenya, and the rest of the world. The metric includes imports and exports (balance of trade), as well as remittances, development aid and various types of financial flows.
 
-The basic problem here is that Kenya has a negative balance of payments: it imports too much and exports too little. Since Kenya does not have enough exports money to finance its imports, it needs to obtain strong currency in other ways, such as development assistance, remittances and short-term capital inflows. The latter can be particular volatile, and can leave the country in need for support.
+Kenya has a negative balance of payments: it imports too much and exports too little. Since Kenya does not have enough exports money to finance its imports, it needs to obtain strong currency in other ways, such as development assistance, remittances and short-term capital inflows. The latter can be particular volatile, and can leave the country in need for support.
 
 ```{r import,echo=FALSE, message=FALSE, warning=FALSE}
 qmfr_data <- readRDS(here("static", "data", "QMFR data Q22018.Rds"))
@@ -49,11 +49,11 @@ f <-qmfr_data %>% select(date, Imports=imports_total, Exports=exports_total, Bal
 animate(f)    
 ```
 
-*The IMF standby facility is discontinued, now what?
+*The IMF standby facility is discontinued, now what?*
 
-Kenya never accessed the facility in the last two years. However, it was a form of insurance that gave confidence to investors and helped the government to attract foreign flows. Without this buffer, the flow of reserve currency (i.e. US Dollars) could be affected and a depreciation might ensue. The concern is fuelled by overall volatility in emerging markets registered in the last month.
+Kenya never accessed the facility in the last two years. However, it was a form of insurance that gave confidence to investors and helped the government to attract foreign flows. Without this form of insurance, it will become more expensive for the government to tap the international capital markets, and the flow of reserve currency (i.e. US Dollars) might decrease. A depreciation of the Kenyan Shilling therefore might ensue.
 
-The depreciation of the Kenyan Shilling however is not a new thing. A long-term analysis shows a somewhat constant downward trend in the last 20 years, with  improved stability in the last 3 years.  
+The depreciation of the Kenyan Shilling however is not a new thing. A long-term analysis shows a somewhat constant downward trend in the last 20 years.  
 
 
 ```{r boh, echo=FALSE, message=FALSE, warning=FALSE}
@@ -66,18 +66,4 @@ qmfr_data %>% ggplot(aes(x=date, y=United.States.dollar)) +
 ```
 
 
-But currency depreciation is not always a bad thing, especially when inflation levels are contained. Last year inflation was considerably below the average of the past 5 years. The question here is whether the conditions are conducive for exports to pick up speed
-
-```{r inflation, echo=FALSE, message=FALSE, warning=FALSE}
-#qmfr_data <- readRDS(here("static", "data", "QMFR data Q22018.Rds"))
-qmfr_data %>% select(date, inflation_monthly) %>%
-  filter(date>2005) %>%
-  gather(key,value, (2:ncol(.))) %>%
-  ggplot(aes(x=date, y=value)) +
-        geom_line() +
-        labs(title="Kenya's trade snapshot", subtitle="Imports are growing, exports are stagnant", y="%", caption="Market prices" )  +
-        theme_minimal()
-  
-        
-```
 

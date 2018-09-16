@@ -27,7 +27,7 @@ The [IMF standby facility](https://www.imf.org/en/About/Factsheets/Sheets/2016/0
 
 The balance of payment is essentially a metric that measures the monetary component of international trade. It accounts for all economic transactions between the residents of a country, e.g. Kenya, and the rest of the world. The metric includes imports and exports (balance of trade), as well as remittances, development aid and various types of financial flows.
 
-Kenya has a negative balance of payments: it imports too much and exports too little. Since Kenya does not have enough exports money to finance its imports, it needs to obtain strong currency in other ways, such as development assistance, remittances and short-term capital inflows. The latter can be particular volatile, and can leave the country in need for support.
+Kenya has a negative balance of payments mostly because it imports too much and exports too little. Since Kenya does not have enough exports money to finance its imports, it needs to obtain strong currency in other ways, such as development assistance, remittances and short-term capital inflows. The latter can be particular volatile, and can leave the country in need for support.
 
 ```{r import,echo=FALSE, message=FALSE, warning=FALSE}
 qmfr_data <- readRDS(here("static", "data", "QMFR data Q22018.Rds"))

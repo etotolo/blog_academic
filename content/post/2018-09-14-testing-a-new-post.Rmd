@@ -52,9 +52,10 @@ animate(f)
 *The IMF standby facility is discontinued, now what?*
 
 Kenya never accessed the facility in the last two years. The country does not face a balance of payment crisis, and the Central Bank holds sufficient foreign reserves to cover 5-6 months of imports. However, the real problem is market confidence. The IMF facility was a form of insurance that  helped the government attract foreign flows. Without this form of insurance, there could be several consequences:
-* It will become more expensive for the government to tap the international capital markets
-* The flow of reserve currency (i.e. US Dollars) might decrease. 
-* The Kenyan Shilling will depreciate, continuing a downward trend registered in the last 20 years, which had stabilized in the last 3.
+
+* Tapping the international capital markets might become more expensive
+* The flow of reserve currency (i.e. US Dollars) might decrease, worsening the balance of payment.
+* As a result, the Kenyan Shilling might depreciate in the near future, continuing a downward trend registered in the last 20 years, which had somewhat stabilized in the last 3.
 
 
 ```{r boh, echo=FALSE, message=FALSE, warning=FALSE}
